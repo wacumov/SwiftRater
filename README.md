@@ -1,22 +1,10 @@
 # SwiftRater
 
-[![Version](https://img.shields.io/cocoapods/v/SwiftRater.svg?style=flat)](http://cocoapods.org/pods/SwiftRater)
-[![License](https://img.shields.io/cocoapods/l/SwiftRater.svg?style=flat)](http://cocoapods.org/pods/SwiftRater)
-[![Platform](https://img.shields.io/cocoapods/p/SwiftRater.svg?style=flat)](http://cocoapods.org/pods/SwiftRater)
-[![Build Status](https://app.bitrise.io/app/55becad13fb442f0/status.svg?token=xvASA1R9AsaeRnPDE7ZLUQ&branch=master)](https://app.bitrise.io/app/55becad13fb442f0)
-[![codebeat badge](https://codebeat.co/badges/a7a60a68-81df-4015-bf04-52a8fb621952)](https://codebeat.co/projects/github-com-takecian-swiftrater-master)
-
 SwiftRater is a class that you can drop into any iPhone app that will help remind your users to review your app on the App Store/in your app.
 
 SwiftRater is written in pure Swift.
 
-## iOS 10.3 〜
-![SwiftRater1](./Resource/later1.gif)
-
-For iOS 10.3 devices, SwiftRater uses SKStoreReviewController.
-
-## 〜 iOS 10.2
-![SwiftRater2](./Resource/later2.gif)
+This is a lightweight fork without any demo files.
 
 ## Requirements
 
@@ -25,20 +13,12 @@ Xcode 8.2 or later.
 
 ## Installation
 
-### Cocoapods
-
-SwiftRater is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "SwiftRater"
-```
 ### Carthage
 
 SwiftRater is compatible with [Carthage](https://github.com/Carthage/Carthage). Add it to your `Cartfile`:
 
 ```ruby
-github "takecian/SwiftRater"
+github "wacumov/SwiftRater"
 ```
 
 ## Usage
@@ -134,10 +114,6 @@ You can customize text in review request dialog for iOS10.2 or before devices. S
 - SwiftRater.alertRateTitle
 - SwiftRater.alertRateLaterTitle
 - SwiftRater.appName
-
-## Demo
-
-You can find Demo app in this repo.
 
 ## Author
 
